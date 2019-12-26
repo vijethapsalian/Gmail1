@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="190425" started-at="2019-12-26T12:44:31Z" finished-at="2019-12-26T12:47:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="190425" started-at="2019-12-26T12:44:31Z" finished-at="2019-12-26T12:47:41Z">
+      <class name="TestScripts.Gmail_sentitemsTest">
+        <test-method status="PASS" signature="openApplctn()[pri:0, instance:TestScripts.Gmail_sentitemsTest@18ef96]" name="openApplctn" is-config="true" duration-ms="33978" started-at="2019-12-26T18:16:25Z" finished-at="2019-12-26T18:16:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplctn -->
+        <test-method status="PASS" signature="sentItems()[pri:0, instance:TestScripts.Gmail_sentitemsTest@18ef96]" name="sentItems" duration-ms="32611" started-at="2019-12-26T18:16:59Z" finished-at="2019-12-26T18:17:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sentItems -->
+        <test-method status="PASS" signature="closeApplctn(org.testng.ITestResult)[pri:0, instance:TestScripts.Gmail_sentitemsTest@18ef96]" name="closeApplctn" is-config="true" duration-ms="9670" started-at="2019-12-26T18:17:31Z" finished-at="2019-12-26T18:17:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sentItems status=SUCCESS method=Gmail_sentitemsTest.sentItems()[pri:0, instance:TestScripts.Gmail_sentitemsTest@18ef96] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplctn -->
+      </class> <!-- TestScripts.Gmail_sentitemsTest -->
+      <class name="TestScripts.Gmail_composetest">
+        <test-method status="PASS" signature="openApplctn()[pri:0, instance:TestScripts.Gmail_composetest@4f4a7090]" name="openApplctn" is-config="true" duration-ms="44018" started-at="2019-12-26T18:14:31Z" finished-at="2019-12-26T18:15:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplctn -->
+        <test-method status="PASS" signature="compose()[pri:0, instance:TestScripts.Gmail_composetest@4f4a7090]" name="compose" duration-ms="58714" started-at="2019-12-26T18:15:15Z" finished-at="2019-12-26T18:16:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compose -->
+        <test-method status="PASS" signature="closeApplctn(org.testng.ITestResult)[pri:0, instance:TestScripts.Gmail_composetest@4f4a7090]" name="closeApplctn" is-config="true" duration-ms="11299" started-at="2019-12-26T18:16:14Z" finished-at="2019-12-26T18:16:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=compose status=SUCCESS method=Gmail_composetest.compose()[pri:0, instance:TestScripts.Gmail_composetest@4f4a7090] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplctn -->
+      </class> <!-- TestScripts.Gmail_composetest -->
+      <class name="TestScripts.Gmail_lgnlgtTest">
+        <test-method status="SKIP" signature="testLogin(java.lang.Long)[pri:0, instance:TestScripts.Gmail_lgnlgtTest@52d455b8]" name="testLogin" duration-ms="0" started-at="2019-12-26T18:14:31Z" finished-at="2019-12-26T18:14:31Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method testLogin requires 1 parameters but 0 were supplied in the @Test annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method testLogin requires 1 parameters but 0 were supplied in the @Test annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:193)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:129)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:378)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:488)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1240)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:980)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1070)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.TestNG.privateMain(TestNG.java:1405)
+	at org.testng.TestNG.main(TestNG.java:1374)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- TestScripts.Gmail_lgnlgtTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

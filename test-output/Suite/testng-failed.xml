@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="TestScripts.Gmail_composetest">
+        <methods>
+          <include name="openApplctn"/>
+          <include name="closeApplctn"/>
+        </methods>
+      </class> <!-- TestScripts.Gmail_composetest -->
+      <class name="TestScripts.Gmail_sentitemsTest">
+        <methods>
+          <include name="openApplctn"/>
+          <include name="closeApplctn"/>
+        </methods>
+      </class> <!-- TestScripts.Gmail_sentitemsTest -->
+      <class name="TestScripts.Gmail_lgnlgtTest">
+        <methods>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- TestScripts.Gmail_lgnlgtTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
